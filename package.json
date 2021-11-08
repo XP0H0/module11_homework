@@ -2,15 +2,15 @@
   "name": "module11_homework",
   "version": "1.0.0",
   "description": "npm guide for beginner",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "npm",
-    "example",
-    "basic"
-    ],
+    "index",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/XP0H0/module11_homework.git"
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/XP0H0/module11_homework/issues"
   },
-  "homepage": "https://github.com/XP0H0/module11_homework#readme"
+  "homepage": "https://github.com/XP0H0/module11_homework#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
 }
