@@ -1,8 +1,24 @@
 {
   "name": "module11_homework",
   "version": "1.0.0",
+  "description": "npm guide for beginner",
   "main": "index.js",
-  "repository": "https://github.com/XP0H0/module11_homework.git",
-  "author": "XP0H0 <demonstriker@rambler.ru>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "example",
+    "basic"
+    ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XP0H0/module11_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XP0H0/module11_homework/issues"
+  },
+  "homepage": "https://github.com/XP0H0/module11_homework#readme"
 }
